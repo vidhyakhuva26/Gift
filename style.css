@@ -1682,3 +1682,49 @@ footer span {
     }
 
 }
+/* ==========================================
+   LATE NIGHT MODE
+========================================== */
+
+body.late-night {
+    --lavender: #17131c;
+    --lavender-dark: #292130;
+    --lavender-soft: #100d14;
+    --burgundy: #c77a99;
+    --burgundy-dark: #f0d9e4;
+    --burgundy-soft: #a9617f;
+    --cream: #18131a;
+    --text: #f8edf3;
+    --soft-text: #bfaeb9;
+
+    background: var(--lavender-soft);
+    color: var(--text);
+}
+
+body.late-night .navbar {
+    background: rgba(16, 13, 20, 0.95);
+}
+
+body.late-night .hero,
+body.late-night .section,
+body.late-night .music-card,
+body.late-night .study-card,
+body.late-night .message-card,
+body.late-night .reminder-card,
+body.late-night .explore-card {
+    background: var(--cream);
+    color: var(--text);
+}
+
+body.late-night p,
+body.late-night .mini-label {
+    color: var(--soft-text);
+}
+
+body.late-night .moon {
+    opacity: 0.8;
+}
+
+body.late-night .star {
+    opacity: 0.9;
+}

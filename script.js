@@ -14,12 +14,11 @@ function goToSpace() {
 
 
 /* ==========================================
-   DARK MODE
+   DARK MODE TOGGLE
 ========================================== */
 
 const themeButton =
     document.getElementById("themeButton");
-
 
 themeButton.addEventListener("click", function () {
 
@@ -473,12 +472,7 @@ function randomThought() {
 
 function lateNight() {
 
-    document.body.classList.add("late-night");
-
-    alert(
-        "Late night mode activated. ☾\n\n" +
-        "Now please sleep."
-    );
+    document.body.classList.toggle("late-night");
 
 }
 
